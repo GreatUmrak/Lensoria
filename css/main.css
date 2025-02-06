@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .header {
     display: flex;
     justify-content: space-around;
@@ -162,6 +165,9 @@ gap: 32px;
     .card__text {
         display: block;
     }
+    .card__image {
+        width: 400px;
+    }
 }
 .card__image {
     border-radius: 60px;
@@ -211,5 +217,89 @@ gap: 32px;
 .image__arrow {
     padding: 10px;
     border: 2px solid black;
+    border-radius: 100%;
+}
+.photo {
+    margin-top: 50px;
+}
+.photo__text {
+    padding: 12px 8px;
+    border: 2px solid black;
+    border-radius: 60px;
+    width: 100px;
+    text-align: center;
+}
+.photo__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.photo__title {
+    width: 491px;
+    font-size: 35px;
+}
+.photo__right {
+    display: flex;
+    align-items: center;
+}
+.photo__right-link {
+    text-decoration: none;
+    border-radius: 60px;
+    border: 1px solid black;
+    color: white;
+    padding: 12px 8px;
+    background-color: black;
+}
+.photo__right-image {
+    padding: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 588px;
+    height: 732px;
+}
+.info1 {
+    background-image: url(/Lensoria/image/48634bcb7e0d4c77772c6eea3d2cc18d.jpg);
+}
+.photo__cards {
+    justify-content: space-around;
+    display: flex;
+}
+.info__text {
+    width: 150px;
+    padding: 12px 8px;
+    border: 2px solid white;
+    color: white;
+    position: relative;
+    display: block;
+    top: 10px;
+    left: 140px;
+    text-align: center;
+    border-radius: 60px;
+}
+.info__end {
+    position: relative;
+    top: 540px;
+    display: flex;
+    border-radius: 60px;
+    justify-content: space-around;
+    align-items: center;
+    width: 440px;
+    height: 84px;
+    background-color: gainsboro;
+}
+.int__title {
+    font-size: 24px;
+}
+.int__description {
+    font-size: 18px;
+}
+.info__end-image {
+    padding: 10px;
+    background-color: black;
     border-radius: 100%;
 }

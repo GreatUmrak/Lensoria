@@ -7,5 +7,4 @@ $(function(){
     $('.card__image-link2').on('click', function(){
         $('.card2').toggleClass('card--active');
     });
-
 });
