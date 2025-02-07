@@ -255,6 +255,7 @@ gap: 32px;
     border-radius: 100%;
 }
 .info {
+    opacity: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,8 +263,25 @@ gap: 32px;
     width: 588px;
     height: 732px;
 }
+.info:hover {
+    transition: all 3s;
+    opacity: 100%;
+    .info__end {
+        transition: 3ms;
+        display: block;
+    }
+    .info__text {
+        display: block;
+    }
+}
 .info1 {
     background-image: url(/Lensoria/image/48634bcb7e0d4c77772c6eea3d2cc18d.jpg);
+}
+.info2 {
+    background-image: url(/Lensoria/image/ApexPredator.webp);
+}
+.card3 {
+    background-image: url(/Lensoria/image/62caab5f1e7de03f82942f5468407892.jpg);
 }
 .photo__cards {
     justify-content: space-around;
@@ -275,22 +293,28 @@ gap: 32px;
     border: 2px solid white;
     color: white;
     position: relative;
-    display: block;
+    display: none;
     top: 10px;
     left: 140px;
     text-align: center;
     border-radius: 60px;
 }
 .info__end {
+    display: none;
     position: relative;
     top: 540px;
-    display: flex;
     border-radius: 60px;
     justify-content: space-around;
     align-items: center;
     width: 440px;
     height: 84px;
     background-color: gainsboro;
+}
+.inf {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
 }
 .int__title {
     font-size: 24px;
@@ -302,4 +326,116 @@ gap: 32px;
     padding: 10px;
     background-color: black;
     border-radius: 100%;
+}
+.vision {
+    background-color: #F5F5F5;
+    margin-top: 50px;
+}
+.vision__text {
+    text-align: center;
+    border-radius: 60px;
+    width: 100px;
+    padding: 12px 8px;
+    border: 2px solid black;
+}
+.vision__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.vision__title{
+    width: 30%;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.vision__right {
+    display: flex;
+    align-items: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+.search__left {
+    width: 300px;
+    border: none;
+    background-color: white;
+    border-radius: 60px;
+    padding: 18px 15px;
+}
+.search__right {
+    position: relative;
+    right: 50px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+.link {
+    display: flex;
+    align-items: center;
+}
+.link__left {
+    border-radius: 60px;
+    color: white;
+    padding: 15px 12px;
+    background-color: black;
+}
+.link__right {
+    padding: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+.vision__cards {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.vcc {
+    padding: 24px;
+    width: 95%;
+    background-color: white;
+}
+.vcc__top {
+    display: flex;
+    justify-content: space-between;
+}
+.vcc__title {
+    font-size: 18px;
+}
+.vcc__center {
+    width: 30%;
+}
+.vcc__center-text {
+    font-size: 18px;
+}
+.link {
+    display: flex;
+    gap: 8px;
+}
+.link__text {
+    background-color: white;
+    border-radius: 60px;
+    color: black;
+    padding: 12px 8px;
+    border: 2px solid black;
+}
+.vcc__right-text {
+    border-radius: 60px;
+    padding: 12px 8px;
+    background-color: black;
+    color: white;
+}
+.vcc__down {
+    display: none;
+    justify-content: end;
+}
+.vcc--active {
+    background-color: #F5F5F5;
+    .vcc__down {
+        margin-top: 40px;
+        gap: 20px;
+        display: flex;
+    }
 }
