@@ -439,3 +439,152 @@ gap: 32px;
         display: flex;
     }
 }
+.difference {
+    margin-top: 50px;
+}
+.difference__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.difference__top-left {
+    padding: 12px 8px;
+    border: 2px solid black;
+    border-radius: 60px;
+    color: black;
+}
+.difference__top-title {
+    width: 21%;
+    font-size: 50px;
+}
+.difference__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.difference__center {
+    width: 90%;
+    display: flex;
+    margin-top: 30px;
+}
+.difference__center-left {
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    width: 60%;
+    height: 474px;
+    background-color: #DCE9B1;
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dcl__title {
+    width: 52%;
+    font-size: 40px;
+}
+.dcl__down-text {
+    width: 60%;
+    font-size: 18px;
+}
+.dcl__down-name {
+    font-size: 18px;
+}
+.difference__center-right {
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 40%;
+    background-color: gray;
+    background-image: url(/Lensoria/image/4b4c6b7d26486a78b539badfca7ee599.jpg);
+}
+.dc1 {
+    width: 80%;
+    height: 50px;
+    margin: 0;
+}
+.dc1__left {
+    width: 60%;
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 60px;
+}
+.dc1__right {
+    width: 40%;
+    background-color: gray;
+    border-bottom-right-radius: 60px;
+}
+.dc2 {
+    width: 70%;
+    height: 50px;
+    margin: 0;
+}
+.dc2__left {
+    width: 60%;
+    background-color: #DCE9B1;
+    border-bottom-left-radius: 60px;
+}
+.dc2__right {
+    width: 40%;
+    background-color: gray;
+    border-bottom-right-radius: 60px;
+}
+.dc3 {
+    width: 60%;
+    height: 50px;
+    margin: 0;
+}
+.dc3__left {
+    width: 60%;
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 60px;
+}
+.dc3__right {
+    width: 40%;
+    background-color: gray;
+    border-bottom-right-radius: 60px;
+}
+.difference__text {
+    width: 100px;
+    text-align: center;
+    border-radius: 60px;
+    color: black;
+    padding: 12px 8px;
+    border: 2px solid black;
+}
+.difference__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.difference__title {
+    width: 30%;
+    font-size: 45px;
+}
+.difference__right {
+    align-items: center;
+    display: flex;
+}
+.difference__right-left {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+}
+.difference__right-right {
+    background-color: black;
+    padding: 10px;
+    border-radius: 60px;
+}
+.difference__cards {
+    display: flex;
+    justify-content: space-around;
+}
+.dcc {
+    width: 30%;
+    height: 456px;
+}
+.dcc__image {
+    width: 100%;
+    height: 316px;
+}
+.dcc__title {
+    font-size: 32px;
+}
